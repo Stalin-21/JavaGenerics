@@ -30,5 +30,10 @@ public class GenericMaximum<T extends Comparable<T>> {
         }
         return max;
     }
+    public static <T extends Comparable<T>> void printMax(T... values) {
+        T max = findMaximum(values);
+        System.out.println("Maximum value: " + max);
+    }
+
 
 }
