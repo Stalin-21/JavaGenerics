@@ -10,5 +10,10 @@ public class Main {
         System.out.println("UC2 TC 2.1 Max: " + MaximumOfFloats.findMaximumOfFloats(99.9f, 20.5f, 10.2f));
         System.out.println("UC2 TC 2.2 Max: " + MaximumOfFloats.findMaximumOfFloats(10.1f, 99.8f, 20.6f));
         System.out.println("UC2 TC 2.3 Max: " + MaximumOfFloats.findMaximumOfFloats(10.5f, 20.2f, 99.7f));
+
+        // Test case for find maximum of Strings.
+        System.out.println("UC3 TC 3.1 Max: " + MaximumOfStrings.findMaximumOfStrings("Apple","Banana","Peach"));
+        System.out.println("UC3 TC 3.2 Max: " + MaximumOfStrings.findMaximumOfStrings("Banana","Peach","Apple"));
+        System.out.println("UC3 TC 3.3 Max: " + MaximumOfStrings.findMaximumOfStrings("Peach","Apple","Banana"));
     }
 }
